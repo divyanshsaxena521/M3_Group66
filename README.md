@@ -9,7 +9,6 @@
 * Aim
 * Input, process, output.
 * Instruction to execute.
-* Output
 * Execution & Working.
 * References.
 * Learning resources.
@@ -44,42 +43,51 @@ RKE transmission requires two components - a transmitter and a receiver.
 | --- | --- | 
 | inc | Contains header files |
 | src | Contains additional source file for compilation |
-| simulation | contains all simulide and hex files for simulation |
 | Documentation | contains Doxy file & all documents related to this project |
 
 
 ## Functions 
 
-| Feature Id | Feature |
+| Feature  | Feature Id |
 | -----------|---------|
-|F_01|  •	Print lock – (Blue switch on- All led on at the same time)
-•	Print unlock - (Blue switch press two times- All led off at the same time)
-•	Print alarm activation/deactivation - (Blue switch press three times- All led on in clockwise manner)
-•	Print approach light - (Blue switch press four times- All led on in anti-clockwise manner)  |
-|F_02| •	Print window status (Blue switch on- All led on at the same time)
-•	Print alarm status - (Blue switch press two times- All led off at the same time
-•	Print car battery info – (Blue switch press three times- All led on in clockwise manner)
-•	Print Door status (Blue switch press four times- All led on in anti-clockwise manner)
- |
+•	Lock – (Blue switch pressed one time- All led on at the same time)|P1_F1|
+•	Unlock - (Blue switch pressed two times- All led off at the same time)|P1_F2|
+•	Alarm activation/deactivation - (Blue switch pressed three times- All led on in clockwise manner)|P1_F3|
+•	Approach light - (Blue switch pressed four times- All led on in anti-clockwise manner)|P1_F4|
+•	Window status (Blue switch pressed one time- All led on at the same time)|P2_F1|
+•	Alarm status - (Blue switch pressed two times- All led off at the same time|P2_F2|
+• car battery info – (Blue switch pressed three times- All led on in clockwise manner)|P2_F3|
+• Door status (Blue switch pressed four times- All led on in anti-clockwise manner)|P2_F4|
+ 
 
 ## Aim
-
+* To design a RKE system.
+* To design a Bi-com system.
 ## Input
-
+Number of Times the user press the blue button in the remote key .
 ## Process
-
-
-
+Encryption of the user input to get the desired output as per user demand.
+Blue switch pressed one time- All led on at the same time
+Blue switch pressed two times- All led off at the same time
+Blue switch pressed three times- All led on in clockwise manner
+Blue switch pressed four times- All led on in anti-clockwise manner
 ## Output
-
+ ### project 1
+   *	Car Locked 
+   * car Unlocked 
+   * Car Alarm activation/deactivation  
+   *	Car Approach light 
+ ### project 2
+   * Car Window status 
+   *	Car Alarm status 
+   * car battery info 
+   * Car Door status 
+ 
 
  ## Instructions to execute
 1. clone my repository "M3_group66"
 2. open terminal and select "Cygwin64"
 3. Run "make run" command in terminal for main code execution
-
-## Output(simulide)
-
 
 
 ## Execution & Working
