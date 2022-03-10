@@ -24,8 +24,11 @@ Widely used in automobiles, an RKS performs the functions of a standard car key 
 ---
 ## 5W's & 1H and S.W.O.T analysis is in the below table 
 
-| 5W's & 1H | S.W.O.T analysis  |
-| -------- | -------------- |
+SWOT analysis
+![SWOT](https://user-images.githubusercontent.com/98813747/157729022-9f69568e-e25d-4bca-83e9-d8dbd047816b.jpg)
+
+5W's & 1H 
+![5W1H Chart (1)](https://user-images.githubusercontent.com/98813747/157729039-fd8c6228-4f0d-4a63-8186-6d60ccbd3c0f.png)
 
 
 ---
