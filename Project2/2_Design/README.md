@@ -3,7 +3,7 @@
     * ###  High Level Flow chart Behavioral Diagram.
     * ### Low Level Flow chart Behavioral Diagram.
     * ### High Level UML Use Case Structural Diagram.
-    ![highlevel drawio (2)](https://user-images.githubusercontent.com/98813747/157760182-2724356a-fbb6-4317-9b6b-983067ebc8e5.png)
+    ![highlevel drawio (2)](D:\github repository\M3_Group66\M3_Group66-1\Project2\2_Design\highlevel BIOCOM.drawio.png)
 
     * ### Low Level UML Use Case Structural Diagram.
 ## Best method followed:
