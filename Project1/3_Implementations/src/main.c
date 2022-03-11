@@ -1,7 +1,19 @@
+
+/**
+ * @file main.c
+ * @author Group 66
+ * @brief  RKE System-remote keyless entry system
+ * @version 0.1
+ * @date 2022-03-10
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #include "MyStm32f407xx.h"
 uint32_t z;
 void delay(void);
-void encryption(void);
+void encryption(void); // this block of code is done by vaishnavi
 void lockcar(void);
 void unlockcar(void);
 void alarm(void);
@@ -18,7 +30,7 @@ int main(void)
     GpioLedGreen.GPIO_PinConfig.GPIO_PinSpeed = GPIO_SPEED_FAST;
     GpioLedGreen.GPIO_PinConfig.GPIO_PinOPType = GPIO_OP_TYPE_PP;
     GPIO_PeriClockControl(GPIOD, ENABLE);
-    GPIO_Init(&GpioLedGreen);
+    GPIO_Init(&GpioLedGreen); // green led
 
     GpioBtn.pGPIOx = GPIOA;
     GpioBtn.GPIO_PinConfig.GPIO_PinNumber = GPIO_PIN_NO_0;
@@ -26,7 +38,7 @@ int main(void)
     GpioBtn.GPIO_PinConfig.GPIO_PinSpeed = GPIO_SPEED_FAST;
     GpioBtn.GPIO_PinConfig.GPIO_PinOPType = GPIO_NO_PUPD;
     GPIO_PeriClockControl(GPIOA, ENABLE);
-    GPIO_Init(&GpioBtn);
+    GPIO_Init(&GpioBtn); // blue button
 
     GpioLedOrange.pGPIOx = GPIOD;
     GpioLedOrange.GPIO_PinConfig.GPIO_PinNumber = GPIO_PIN_NO_13;
@@ -34,7 +46,8 @@ int main(void)
     GpioLedOrange.GPIO_PinConfig.GPIO_PinSpeed = GPIO_SPEED_FAST;
     GpioLedOrange.GPIO_PinConfig.GPIO_PinOPType = GPIO_OP_TYPE_PP;
     GPIO_PeriClockControl(GPIOD, ENABLE);
-    GPIO_Init(&GpioLedOrange);
+    GPIO_Init(&GpioLedOrange); // orange led
+	
 
     GpioLedRed.pGPIOx = GPIOD;
     GpioLedRed.GPIO_PinConfig.GPIO_PinNumber = GPIO_PIN_NO_14;
@@ -42,7 +55,7 @@ int main(void)
     GpioLedRed.GPIO_PinConfig.GPIO_PinSpeed = GPIO_SPEED_FAST;
     GpioLedRed.GPIO_PinConfig.GPIO_PinOPType = GPIO_OP_TYPE_PP;
     GPIO_PeriClockControl(GPIOD, ENABLE);
-    GPIO_Init(&GpioLedRed);
+    GPIO_Init(&GpioLedRed); // red led
 
     GpioLedBlue.pGPIOx = GPIOD;
     GpioLedBlue.GPIO_PinConfig.GPIO_PinNumber = GPIO_PIN_NO_15;
@@ -50,7 +63,7 @@ int main(void)
     GpioLedBlue.GPIO_PinConfig.GPIO_PinSpeed = GPIO_SPEED_FAST;
     GpioLedBlue.GPIO_PinConfig.GPIO_PinOPType = GPIO_OP_TYPE_PP;
     GPIO_PeriClockControl(GPIOD, ENABLE);
-    GPIO_Init(&GpioLedBlue);
+    GPIO_Init(&GpioLedBlue);  // blue led
 
     /*encryption();*/
 
@@ -88,13 +101,13 @@ int main(void)
 
 void delay(void)
 {
-	for(uint32_t i=0;i<5000000;i++);
+	for(uint32_t i=0;i<5000000;i++);   // dealy function logic is done by divyansh
 }
 
 
 void encryption(void)
 {
-	uint32_t x=2,y=4;
+	uint32_t x=2,y=4;  // encryption logic function is done by vaishnavi
 	z = x+y;
 }
 
@@ -103,7 +116,7 @@ void encryption(void)
 void lockcar(void)
 {
 
-		GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12,GPIO_PIN_SET);
+		GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12,GPIO_PIN_SET); // this block of code is done by Divyansh
 		GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_13,GPIO_PIN_SET);
 		GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_14,GPIO_PIN_SET);
 		GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_15,GPIO_PIN_SET);
@@ -112,7 +125,7 @@ void lockcar(void)
 }
 void unlockcar(void)
 {
-	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12,GPIO_PIN_RESET);
+	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12,GPIO_PIN_RESET);  //  this block of code is done by aman
 	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_13,GPIO_PIN_RESET);
 	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_14,GPIO_PIN_RESET);
 	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_15,GPIO_PIN_RESET);
@@ -121,7 +134,7 @@ void unlockcar(void)
 }
 void alarm(void)
 {
-	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12,GPIO_PIN_SET);
+	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12,GPIO_PIN_SET);  // this block of code is done by vaishnavi
 	delay();
 	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_13,GPIO_PIN_SET);
 	delay();
@@ -133,7 +146,7 @@ void alarm(void)
 }
 void approachlight(void)
 {
-	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12,GPIO_PIN_SET);
+	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12,GPIO_PIN_SET); // this block of code is cone by akshay
 	delay();
 	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_15,GPIO_PIN_SET);
 	delay();
