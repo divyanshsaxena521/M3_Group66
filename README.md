@@ -2,7 +2,12 @@
 ### workdone
 |Folder|Done by|
 | --- | --- |
-|||
+|Requirements|Divyansh & Akshay|
+|Design| Aman Akshay |
+|implemenation| Vaishnavi Divyansh akshay and aman|
+|test plan and output | Divyansh and akshay |
+|Report| Divyansh |
+|images and other| Vaishnavi |
 
 # This Project is Made by
  * Divyansh saxena - 99007483
@@ -39,10 +44,9 @@ RKE transmission requires two components - a transmitter and a receiver.
 
 
 ## workflow 
-| Build | valgrind | Code quality score | Cpp check| codiga code grade | codacy |
-| --- |--- | --- | --- | --- | --- |
- 
-
+| Build | Cpp check| codiga | codacy |
+| --- |--- | --- | --- | 
+|[![Build-Linux](https://github.com/divyanshsaxena521/M3_Group66/actions/workflows/Build-c.yml/badge.svg)](https://github.com/divyanshsaxena521/M3_Group66/actions/workflows/Build-c.yml)|[![cppcheck-action](https://github.com/divyanshsaxena521/M3_Group66/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/divyanshsaxena521/M3_Group66/actions/workflows/cppcheck.yml)|![codacy](https://api.codiga.io/project/31888/status/svg)||
 ## Folder structure
 | 1_Requirements | 2_Design | 3_Implementation | 4_TestplanAndOutput | 5_Report | 6_ImagesAndVideos | 7_Others |
 | --- | --- | --- | --- | --- | --- | --- |
