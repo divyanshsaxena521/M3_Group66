@@ -7,6 +7,8 @@
     * ### High Level UML Use Case Structural Diagram.
     ![highlevel BIOCOM drawio](https://user-images.githubusercontent.com/98813747/157817463-c919530d-0e42-483f-a195-62e6ad90161d.png)
     * ### Low Level UML Use Case Structural Diagram.
+    ![LOW LEVEL UML P2](https://user-images.githubusercontent.com/98813747/157832134-73738361-b69f-4116-94f1-0281e067fe15.png)
+
 ## Best method followed:
    * The best of the best Diagrams are considered and coding is done on the basis of these diagrams.
    * Mapping of the code is done in such a way that avoid confusion.
