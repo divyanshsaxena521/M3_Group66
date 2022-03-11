@@ -3,6 +3,14 @@
 |Folder|Done by|
 | --- | --- |
 |||
+
+# This Project is Made by
+ * Divyansh saxena - 99007483
+ * Aman Sharma - 99007483
+ * Akshay kelagade - 99007502
+ * Vaishnavi padiyappanavar - 99007503
+ # contribution is described in the functions itself.
+ 
 ## Contents
 * Introduction
 * workflow
@@ -90,7 +98,7 @@ Blue switch pressed four times- All led on in anti-clockwise manner
  ## Instructions to execute
 1. clone my repository "M3_group66"
 2. open terminal and select "Cygwin64"
-3. Run "make run" command in terminal for main code execution
+3. Run "make all " command in terminal for main code execution.
 
 
 ## Execution & Working
