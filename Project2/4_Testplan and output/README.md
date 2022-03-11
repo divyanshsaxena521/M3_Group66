@@ -1,10 +1,10 @@
 # High Level Test Plan:
-|Test Id|Description|Expected input|Expected output|Actual output|
+|Test Id|Description|Expected input|Expected output|Actual output|pass/fail|
 |-------|-----------|--------------|---------------|-------------|---------|
-|H1 | car window status |Blue switch is pressed once |Shall Print window status |Shall Print window status|
-|H2 | car Alarm status |Blue switch is pressed twice|Shall Print alarm status |Shall Print alarm status|
-|H3 | car Battery status |Blue switch is pressed thrice|Shall Print battery status |Shall Print battery status|
-|H4 | car door status |Blue switch is pressed four times|Shall Print door status |Shall Print door status|
+|H1 | car window status |Blue switch is pressed once |Shall Print window status |Shall Print window status|pass|
+|H2 | car Alarm status |Blue switch is pressed twice|Shall Print alarm status |Shall Print alarm status|pass|
+|H3 | car Battery status |Blue switch is pressed thrice|Shall Print battery status |Shall Print battery status|pass|
+|H4 | car door status |Blue switch is pressed four times|Shall Print door status |Shall Print door status|pass|
 
 # Low level Test plan:
 |Test Id|Description|Expected input|Expected output|Actual output|pass/fail|
