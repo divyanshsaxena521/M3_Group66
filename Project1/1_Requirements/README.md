@@ -37,34 +37,34 @@ SWOT analysis
 # High Level Requirements
 | Id          |  High Level Requirements  |    status  |
 | :--        | :--          |   :--     |
-| HLR1        | The system should print lock when blue switch press once     | Implimented |
-| HLR2        | The system should print unlock when blue switch press two times |  Implimented|
-| HLR3        | The system should print alarm activation/deactivation when blue switch press three times | Implimented |
-| HLR4        | The system should print approach light when blue switch press four times | Implimented |
+| HLR1        | The system should print lock when blue switch press once     | Implemented |
+| HLR2        | The system should print unlock when blue switch press two times |  Implemented|
+| HLR3        | The system should print alarm activation/deactivation when blue switch press three times | Implemented |
+| HLR4        | The system should print approach light when blue switch press four times | Implemented |
 
 # Low Level Requirements
 | Id          | Low Level Requirements for HLR1   |    status  |
 | :--        | :--          |   :--     |
-| LLR1.1      | When the button is pressed all the LED's shall be on at the same time    | Implimented |
-| LLR1.2      | All the LED's shall be on at the same time-Green--> Orange--> Red--> Blue-->| Implimented |
+| LLR1.1      | When the button is pressed all the LED's shall be on at the same time    | Implemented |
+| LLR1.2      | All the LED's shall be on at the same time-Green--> Orange--> Red--> Blue-->| Implemented |
 
 
 
 | Id          | Low Level Requirements for HLR2   |    status  |
 | :--        | :--          |   :--     |
-| LLR2.1        | When the button is pressed all the LED's shall be off at the same time     | Implimented |
-| LLR2.2      | All the LED's shall be off at the same time-Green--> Orange--> Red-->Blue-->| Implimented |
+| LLR2.1        | When the button is pressed all the LED's shall be off at the same time     | Implemented |
+| LLR2.2      | All the LED's shall be off at the same time-Green--> Orange--> Red-->Blue-->| Implemented |
 
 
 | Id          | Low Level Requirements for HLR3   |    status  |
 | :--        | :--          |   :--     |
-| LLR3.1        | When the button is pressed all the LED's shall be on    | Implimented |
-| LLR3.2        | When the button is pressed LED's shall be on in clockwise direction | Implimented |
+| LLR3.1        | When the button is pressed all the LED's shall be on    | Implemented |
+| LLR3.2        | When the button is pressed LED's shall be on in clockwise direction | Implemented |
 
 | Id          | Low Level Requirements for HLR4   |    status  |
 | :--        | :--          |   :--     |
-| LLR4.1        | When the button is pressed all the LED's shall be on    |  Implimented|
-| LLR4.2        | When the button is pressed LED's shall be on in anti-clockwise direction |Implimented  |
+| LLR4.1        | When the button is pressed all the LED's shall be on    |  Implemented|
+| LLR4.2        | When the button is pressed LED's shall be on in anti-clockwise direction |Implemented  |
 
 
 
