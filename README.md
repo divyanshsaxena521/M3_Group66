@@ -46,7 +46,7 @@ RKE transmission requires two components - a transmitter and a receiver.
 ## workflow 
 | Build | Cpp check| codiga | codacy |
 | --- |--- | --- | --- | 
-|[![Build-Linux](https://github.com/divyanshsaxena521/M3_Group66/actions/workflows/Build-c.yml/badge.svg)](https://github.com/divyanshsaxena521/M3_Group66/actions/workflows/Build-c.yml)|[![cppcheck-action](https://github.com/divyanshsaxena521/M3_Group66/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/divyanshsaxena521/M3_Group66/actions/workflows/cppcheck.yml)|![codacy](https://api.codiga.io/project/31888/status/svg)||
+|[![Build-Linux](https://github.com/divyanshsaxena521/M3_Group66/actions/workflows/Build-c.yml/badge.svg)](https://github.com/divyanshsaxena521/M3_Group66/actions/workflows/Build-c.yml)|[![cppcheck-action](https://github.com/divyanshsaxena521/M3_Group66/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/divyanshsaxena521/M3_Group66/actions/workflows/cppcheck.yml)|![codacy](https://api.codiga.io/project/31888/status/svg)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e25ac976c13b480a93df09f1a763031c)](https://www.codacy.com/gh/Akshaykelagade/M3_Group66/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Akshaykelagade/M3_Group66&amp;utm_campaign=Badge_Grade)|
 ## Folder structure
 | 1_Requirements | 2_Design | 3_Implementation | 4_TestplanAndOutput | 5_Report | 6_ImagesAndVideos | 7_Others |
 | --- | --- | --- | --- | --- | --- | --- |
