@@ -3,15 +3,15 @@
 |Folder|Done by|
 | --- | --- |
 |Requirements|Divyansh & Akshay|
-|Design| Aman Akshay |
-|implemenation| Vaishnavi Divyansh akshay and aman|
-|test plan and output | Divyansh,akshay and Vaishnavi |
+|Design| Aman & Akshay |
+|Implemenation| Vaishnavi Divyansh Akshay and Aman|
+|Test plan and output | Divyansh, Akshay and Vaishnavi |
 |Report| Divyansh |
 |Video and images| Vaishnavi |
 
 # This Project is Made by
  * Divyansh saxena - 99007483
- * Aman Sharma - 99007483
+ * Aman Sharma - 99007484
  * Akshay kelagade - 99007502
  * Vaishnavi padiyappanavar - 99007503
  # contribution is described in the functions itself.
