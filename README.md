@@ -7,7 +7,7 @@
 |implemenation| Vaishnavi Divyansh akshay and aman|
 |test plan and output | Divyansh,akshay and Vaishnavi |
 |Report| Divyansh |
-|images and other| Vaishnavi |
+|Video and images| Vaishnavi |
 
 # This Project is Made by
  * Divyansh saxena - 99007483
