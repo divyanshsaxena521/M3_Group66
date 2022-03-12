@@ -5,7 +5,7 @@
 |Requirements|Divyansh & Akshay|
 |Design| Aman Akshay |
 |implemenation| Vaishnavi Divyansh akshay and aman|
-|test plan and output | Divyansh and akshay |
+|test plan and output | Divyansh,akshay and Vaishnavi |
 |Report| Divyansh |
 |images and other| Vaishnavi |
 
