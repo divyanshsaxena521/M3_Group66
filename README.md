@@ -106,20 +106,8 @@ Blue switch pressed four times- All led on in anti-clockwise manner
 
 
 ## Execution & Working
-### PRESS 1 TIMES(P1_CAR LOCK/P2_WINDOW STATUS)
-![ALL ON](https://user-images.githubusercontent.com/98813747/157951902-0b6ed309-017f-4a78-b837-6d60ba716f6b.gif)
-### PRESS 2 TIMES(P1_CAR UNLOCK/P2_ALARM STATUS)
-![ALL OFF](https://user-images.githubusercontent.com/98813747/157951952-95b7712f-1fb1-4494-ab9b-f2a6fb5ddb8e.gif)
-### PRESS 3 TIMES(P1_ALARM ACTIVATION AND DEACTVATION/P2_BATTERY INFO)
-![CLOCK WISE](https://user-images.githubusercontent.com/98813747/157951878-cc072e31-0b73-45ac-b02d-d0d338a43d86.gif)
-### PRESS 4 TIMES(P1_APPROACH TO LIGHT/P2_DOOR STATUS)
-![ANTI CLOCK WISE](https://user-images.githubusercontent.com/98813747/157951844-75128b57-4fc9-44fd-b689-4a63a3e371d8.gif)
 
-
-
-## References
-[Getting started ](https://youtu.be/_z0ssXxOM7U)
-
+Refer to the video
 ## Learning Resources
 
 1.[gcc makefile](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html#zz-2.1)
