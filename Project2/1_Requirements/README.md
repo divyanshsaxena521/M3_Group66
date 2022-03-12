@@ -12,10 +12,10 @@ Widely used in automobiles, an RKS performs the functions of a standard car key 
 ---
 
 ## Objective
- * car must be locked  when Button is pressed ONCE
- * car must be unlocked  when Button is pressed TWICE
- * Activation/deactivation of alarm when the Button is pressed THREE times
- * car must get exposure to  light when the Button is pressed FOUR times
+ * car must show window status  when Button is pressed ONCE
+ * car must show alarm staus  when Button is pressed TWICE
+ * car battery info when the Button is pressed THREE times
+ * car must show door status when the Button is pressed FOUR times
 
 ## State of art
  * The main focus point  is controlling the car wirelessly and remotely.
