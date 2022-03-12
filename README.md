@@ -107,7 +107,7 @@ Blue switch pressed four times- All led on in anti-clockwise manner
 
 ## Execution & Working
 
-Refer to the video
+Refer to the video in the folder images and videos
 ## Learning Resources
 
 1.[gcc makefile](https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html#zz-2.1)
